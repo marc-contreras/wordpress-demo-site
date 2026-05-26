@@ -34,6 +34,9 @@ Características:
 - diseño responsive
 - export/import templates
 
+## Edición de código
+Código html incluido en el repositorio
+
 ## Capturas
 
 ### Gym Homepage
@@ -46,17 +49,7 @@ Características:
 Demo temporal disponible durante entrevistas o bajo petición.
 
 ## Créditos
-Tutorial original:
-https://www.youtube.com/watch?v=DSU9DlcDu90
-
-Recursos:
-https://jimfahaddigital.com/tutorial/how-to-create-an-elementor-website-elementor-masterclass-2026/
-
 Proyecto usado únicamente con fines educativos y portfolio.
-
-
-
-Proyecto creado como práctica siguiendo el tutorial de Jim Fahad Digital.
 
 Tutorial original:
 https://www.youtube.com/watch?v=DSU9DlcDu90
