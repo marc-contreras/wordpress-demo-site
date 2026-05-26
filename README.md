@@ -51,12 +51,12 @@ Demo temporal disponible durante entrevistas o bajo petición.
 ## Créditos
 Proyecto usado únicamente con fines educativos y portfolio.
 
-Tutorial original:
+Tutoriales:
 https://www.youtube.com/watch?v=DSU9DlcDu90
+https://www.youtube.com/watch?v=EgTkMpqyJRo
 
-Recursos originales:
+Recursos:
 https://jimfahaddigital.com/tutorial/how-to-create-an-elementor-website-elementor-masterclass-2026/
 
 Este repositorio se utiliza únicamente con fines educativos y de portfolio.
-
 
