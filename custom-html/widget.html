@@ -1,0 +1,181 @@
+<style>
+html,body{
+    overflow-x: hidden;
+}
+
+.lst-none ul{
+    list-style-type: none !important;
+}
+
+.mix-blend-mode{
+    mix-blend-mode: difference;
+}
+
+.fire-bg img {
+    animation: flameWobble 6s infinite linear;
+}
+
+@keyframes flameWobble {
+    0%{
+        filter:blur(2px);
+         opacity: 0;
+    }
+   
+    10%{
+        filter:blur(0px);
+    }
+     20%{
+       
+         opacity: 1;
+    }
+  100% {
+    transform: scale(1,1.2) translate(0, -30px) rotate(-2deg);
+      opacity: 0;
+  }
+}
+
+.delay-6s img{
+    animation-delay: .6s;
+}
+
+.hero{
+     animation:bg 150s linear  infinite !important;
+}
+.bg-change-animation{
+    animation:bg 100s linear  infinite !important;
+}
+
+@keyframes bg{
+    to{
+        background-position-y: 1000px;
+    }
+}
+
+.marquee-content ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    width: max-content;
+    animation: marquee 30s linear infinite;
+    will-change: transform;
+}
+
+.marquee-right ul {
+    animation-direction: reverse;
+}
+
+.marquee-content {
+    overflow: hidden;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.btn-orrange .elementor-button{
+    overflow:hidden !important;
+    position: relative;
+  z-index: 0;
+}
+
+.btn-orrange .elementor-button:before, .btn-orrange .elementor-button:after,
+.btn-orrange .elementor-button .elementor-button-content-wrapper:before,
+.btn-orrange .elementor-button .elementor-button-content-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #040202;
+  transition: all .5s ease;
+  z-index:-1;
+}
+.btn-orrange .elementor-button:before {
+  transform: translate(-100%, -100%);
+}
+.btn-orrange .elementor-button:after {
+  transform: translate(-100%, 100%);
+}
+.btn-orrange .elementor-button .elementor-button-content-wrapper:before {
+  transform: translate(100%, -100%);
+}
+.btn-orrange .elementor-button .elementor-button-content-wrapper:after {
+  transform: translate(100%, 100%);
+}
+
+.btn-orrange .elementor-button:hover:before {
+  transform: translate(-49%, -49%);
+}
+.btn-orrange .elementor-button:hover:after {
+  transform: translate(-49%, 49%);
+}
+.btn-orrange .elementor-button:hover .elementor-button-content-wrapper:before {
+  transform: translate(50%, -50%);
+}
+.btn-orrange .elementor-button:hover .elementor-button-content-wrapper:after {
+  transform: translate(50%, 50%);
+}
+
+.count-wrapper .elementor-icon-box-icon .elementor-icon svg {
+    height: fit-content;
+}
+
+
+.count-wrapper{
+backdrop-filter: blur(8px);
+
+
+}
+
+.hero{
+     animation:bg 150s linear  infinite !important;
+}
+.bg-change-animation{
+    animation:bg 100s linear  infinite !important;
+}
+
+@keyframes bg{
+    to{
+        background-position-y: 1000px;
+    }
+}
+
+.service-item:hover .hover-content {
+   transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.hover-content {
+   transform: translateY(40%);
+    transition: all .4s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.membership {
+    animation: bg2 200s linear infinite forwards;
+}
+
+@keyframes bg2{
+    100% {
+    background-position-X: 2000px;
+}
+}
+
+</style>
+
+<script>
+ import SimpleParallax from "simple-parallax-js/vanilla";
+
+var image = document.getElementsByClassName('fitness_test');
+new simpleParallax(image);
+    
+</script>
