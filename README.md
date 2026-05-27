@@ -37,14 +37,6 @@ Características:
 ## Edición de código
 Código html incluido en el repositorio
 
-## Capturas
-
-### Gym Homepage
-![Gym](screenshots/gym-homepage.png)
-
-### Parallax Demo
-![Parallax](screenshots/parallax-demo.png)
-
 ## Demo
 Demo temporal disponible durante entrevistas o bajo petición.
 
